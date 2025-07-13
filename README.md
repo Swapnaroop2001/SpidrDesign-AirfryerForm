@@ -1,12 +1,44 @@
-# React + Vite
+# SpidrDesign Airfryer Form — React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern, responsive form built with **React** and **Vite**, styled to match **Spidr Design** aesthetics. It features live formatting, clean UI, and interactive scroll animations — all deployed via GitHub Pages.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Project Features
 
-## Expanding the ESLint configuration
+- 📋 **User Inputs**: First Name, Last Name, Phone Number, Email, Cost Guess, and 16-digit Spidr PIN
+- 🔢 **Live Formatting**: PIN auto-formats as `####-####-####-####` while typing
+- 🧠 **Scroll-based Fade Effects**: Header, profile image, and text fade in on scroll
+- 🎨 **Styled with Tailwind CSS**: Clean, minimalist layout with spacing and subtle transitions
+- 🚀 **Deployed on GitHub Pages**: Fully live with a public repository
+- 📸 **Profile Image & GIF**: Hover interaction toggles between static photo and GIF
+- 📄 **Form Submission**: Logs form data to the console and resets inputs
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Built With
+
+- **React + Vite**: Fast dev setup and optimized build
+- **Tailwind CSS**: Utility-first CSS framework
+- **gh-pages**: For deployment to GitHub Pages
+- **IntersectionObserver API**: Custom scroll-based fade-in hook
+
+---
+
+## 🚀 Live Demo
+
+🌐 [View the deployed site](https://Swapnaroop2001.github.io/SpidrDesign-AirfryerForm)
+
+📦 [View the GitHub Repo](https://github.com/Swapnaroop2001/SpidrDesign-AirfryerForm)
+
+---
+
+## 🧑‍💻 Developer Notes
+
+This template uses Vite’s recommended React setup with HMR (Hot Module Replacement) and ESLint support.
+
+
+
+
+
+

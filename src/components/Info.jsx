@@ -1,4 +1,5 @@
 import React from "react";
+import airfryerImg from "..//assets/airfryer.jpg";
 
 const InfoSection = () => {
     return (
@@ -24,7 +25,7 @@ const InfoSection = () => {
 
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-start mb-6 lg:mb-0 relative z-0">
                 <img
-                    src="https://github.com/Swapnaroop2001/SpidrDesign-AirfryerForm/blob/main/src/assets/airfryer.jpg"
+                    src={airfryerImg}
                     alt="Profile"
                     className="max-w-[50rem] w-full h-auto object-contain"
                 />

@@ -1,4 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
+import myPhoto from '..//assets/Myphoto.png';
+import myGif from '..//assets/giphy.gif';
 
 const useScrollFadeIn = (
     direction = "none",
@@ -71,9 +73,8 @@ const ProfileCard = () => {
         name: "Swapnaroop",
         title: "Software Engineer & Problem-Solving Enthusiast",
         description: `I'm a passionate developer who recently completed a Master’s degree in Computer Science at Stevens Institute of Technology. I have a strong foundation in full-stack development and love building intuitive user interfaces and scalable backend systems. I’ve worked at two fast-paced startups where I honed my skills in both UI design and coding, becoming fluent in creating seamless user experiences. Whether I’m designing marketplace platforms or integrating complex APIs, I focus on delivering clean, efficient, and impactful solutions. Outside the world of code, I’m a cinephile as well as a huge fan of "Game of Thrones" and "How I Met Your Mother" — I can quote scenes from both like it’s my job. I also love sports, especially soccer and cricket. I’m known for my curiosity, upbeat attitude, and a growing collection of side projects that blend creativity with tech.`,
-
-        image: "https://github.com/Swapnaroop2001/SpidrDesign-AirfryerForm/blob/main/src/assets/Myphoto.png",
-        gif: "https://github.com/Swapnaroop2001/SpidrDesign-AirfryerForm/blob/main/src/assets/giphy.gif",
+        image: myPhoto,
+        gif: myGif,
     };
 
     // Add fade-in refs for all fade-in elements including h3 header
