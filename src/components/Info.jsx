@@ -24,7 +24,7 @@ const InfoSection = () => {
 
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-start mb-6 lg:mb-0 relative z-0">
                 <img
-                    src="src/assets/airfryer.jpg"
+                    src="https://github.com/Swapnaroop2001/SpidrDesign-AirfryerForm/blob/main/src/assets/airfryer.jpg"
                     alt="Profile"
                     className="max-w-[50rem] w-full h-auto object-contain"
                 />
